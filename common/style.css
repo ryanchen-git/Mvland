@@ -1,0 +1,414 @@
+@charset "utf-8";
+body {
+	font: 78.5%/1.6em "Lucida Grande", "Lucida Sans Unicode", verdana, geneva, sans-serif;
+	word-spacing: 2px;
+	color: #444;
+	/*background: url(http://www.csszengarden.com/164/background.gif);*/
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #098BF7;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#wrapper {
+	background: #fff;
+	width: 850px;
+	margin:0 auto;
+	padding: 0 15px;
+	border-right: 2px solid #CCCCCC;
+	border-left: 2px solid #CCCCCC;
+}
+
+* html #wrapper
+{
+	w\idth: expression(document.documentElement.clientWidth > 900 ? "900px" : "auto");
+}
+
+#header {
+	padding: 0;
+	margin: 0 0 5px 0;
+}
+
+#header h1 {
+	color: #F90069;
+	font: 230% Arial;
+	letter-spacing: -1px;
+}
+
+#header h1 a {
+	color: #f90069;
+	text-decoration: none;
+}
+
+#header h2 {
+	color: #aaa;
+	font: 140% Arial;
+}
+
+#header form {
+	float: right;
+	padding-top: 10px;
+}
+
+#header #search_box {
+	border: 2px solid #FFCC66; margin-right: 5px; width: 180px; height: 20px;
+}
+
+#header form .search_botton {
+	width: 65px;
+	height: 25px;
+}
+
+.clear {
+	clear: both;
+}
+
+.menu {
+	background: url(http://www.mvland.com/images/th_bg.png) top right repeat-x #F90069;
+	height: 50px;
+}
+
+ul#nav {
+	
+}
+
+.clear {
+	clear: both;
+}
+
+ul#nav li {
+	list-style: none;
+	float: left;
+	height: 50px;
+}
+
+ul#nav li a {
+	height: 40px;
+	background: url(http://www.mvland.com/images/th_bg.png) top repeat-x #F90069;
+	display: block;
+	width: 120px;
+	padding: 5px;
+	border-right: 1px solid #fff;
+	color: #FFFFFF;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+ul#nav li a:hover {
+	background-color: #FFCC00;
+	text-decoration: none;	
+}
+
+ul#nav li a em {
+	font-style: normal;
+	text-decoration: underline;
+}
+
+#sidebar {
+	width: 322px;
+	float: right;
+	margin-top: 5px;
+	border-left: 1px solid #FFCC00;
+	border-bottom: 1px solid #FFCC00;
+}
+
+#sidebar h1 {
+	background: #FFCC00;
+	color:#000;
+	font-size: 16px;
+	padding: 10px 0 10px 15px;
+	border-bottom:5px solid #fff;
+}
+
+#sidebar p {
+	padding:10px 20px;
+	margin:0 0 10px 0;
+}
+
+#sidebar p.first {
+	padding: 5px;
+	margin-left: 10px;
+}
+
+#sidebar h2 {
+	font:150% Arial;
+	color:#098BF7;
+	border-bottom:1px solid #ccc;
+	margin:10px;
+}
+
+#sidebar h3 {
+	font:90% Verdana;
+	margin:0 10px;
+	color:#333;
+	letter-spacing:1px;
+	font-weight:bold;
+}
+
+#sidebar ul,ol {
+	margin:0 0 0 30px;
+	padding:5px;
+}
+
+#sidebar ul li {
+	padding:3px;
+}
+
+#content {
+	border: 1px solid #FFFFFF;
+	margin:5px 348px 0 0 !important;
+}
+
+#content .first {
+	background:url(../images/nav_a_hover) bottom repeat-x #4883A1;
+	padding:10px;
+}
+
+#content .first h2 {	
+	color:#fff;
+	background:none;
+	padding:0;
+}
+
+#content .first p {
+	color:#fff;
+}
+
+#content .first p a {
+	color:#fff;
+	font-weight:bold;
+	border-bottom:1px solid #FF8ABC;
+	text-decoration:none;
+}
+
+#content p {
+	line-height:27px;
+	margin:10px 15px;
+	padding:5px;
+}
+
+#content h1 {
+	font-size: 18px;
+	color:#333;
+	margin:2px 0 5px 0;
+	padding:15px;
+	background:url(../images/h2.jpg) top repeat-x;
+}
+
+#content h2 a {
+
+}
+
+#content p img {
+	float:left;
+	margin:0 10px 0 0;
+	padding:1px;
+	background:#ccc;
+	border:4px solid #eee;
+}
+
+#content h3 {
+	font:140% Trebuchet MS;
+	color:#444;
+	margin:15px 15px;
+}
+
+blockquote {
+	margin:0 0 0 20px;
+	border-left:2px solid #ccc;
+}
+
+#content ul {
+	margin:0 0 0 40px;
+}
+
+#content #random_mv {
+	margin-bottom: 15px;
+}
+#content #random_mv .title {
+	font-size: 15px; margin-bottom: 10px;
+}
+
+#sub_wrapper {
+}
+
+/*
+#content form {
+	padding:10px;
+	margin:20px;
+	border:1px solid #ccc;
+}
+
+#content form label {
+	font-weight:bold;
+	color:#444;
+	display:block;
+}
+
+#content form input {
+	width:96%;
+	border:1px solid #ddd;
+	padding:4px;
+	margin:5px 0 10px 0;
+	font:90% Verdana;
+}
+
+#content form textarea {
+	width:96%;
+	border:1px solid #ddd;
+	padding:4px;
+	margin:5px 0 10px 0;
+	font:90% Verdana;
+}
+*/
+
+.member_signup {
+	border-top: 1px solid #CCCCCC; 
+	width: 85%; 
+	margin-left: 20px; 
+	padding-top: 10px;
+}
+
+.account_box a { 
+	cursor: default;
+	margin: 10px 0 15px 30px;
+	padding: 4px 0 8px 0;
+	display: block; 
+	text-decoration: none; 
+	border: 2px outset #999999; 
+	font-weight: bold; 
+	font-size: 15px; 
+	text-align: center; 
+	width: 125px; 
+	height: 15px; 
+	background-color: #336699; 
+	color: #FFFFFF;	
+}
+
+.account_box a:active {
+	border: 2px inset #999999; 	
+}
+
+.forgot_acc_pass {
+	text-align: center; 
+	padding: 10px 0 5px 0;
+} 
+
+#footer {
+	text-align: center;
+	border-top: 2px solid #CCCCCC;
+	padding-top: 10px;
+	margin-top: 20px;
+}
+
+#footer a {
+}
+	
+/* my css */
+
+.form_field {
+	padding-left: 5px;
+}
+
+#signupForm .form_red {
+	border: 2px solid #F80069; 
+	width: 400px;
+}
+
+.form_red div {
+	padding: 20px; 
+	/*background-color: #FFCC99;*/
+}
+
+#signupForm .form_index {
+	border: 2px solid #336699;
+	width: 280px;
+	margin-left: 20px;
+}
+
+#signupForm .signup_form {
+	padding: 10px 20px 0px 0px; 
+}
+
+#signupForm .form_blue {
+	border: 2px solid #336699;
+	width: 400px;
+}
+
+.form_profile {
+	border: 2px solid #336699;
+	width: 110%;
+	padding: 10px;
+}
+
+.form_blue div {
+	padding: 20px 20px 10px 20px; 
+	/*background-color: #99CCFF;*/
+}
+
+#signupForm .form_yellow {
+	border: 2px solid #FFCC00;
+	width: 400px;
+}
+
+.form_yellow div {
+	padding: 20px; 
+	/*background-color: #FFFF66;*/
+}
+
+#signupForm .form_provide {
+	border: 2px solid #FFCC00;
+	width: 99%;
+}
+
+.form_provide div {
+	padding: 20px; 
+}
+
+
+#signupForm legend {
+	padding: 0 10px;
+}
+
+.error_text {
+	color: #FF0000;
+}
+
+.error_msg {
+	padding: 5px; 
+	width: 97%; 
+	color: #FF0000;
+}
+
+#fixedtipdiv {
+	position: absolute;
+	padding: 5px;
+	border: 1px dotted #000000;
+	font: normal 12px Verdana;
+	line-height: 18px;
+}
+
+legend {
+	padding: 0 10px;
+}
+
+.user_message {
+	border-top: 1px solid #FFCC00;
+	width: 85%;
+}
+
+.user_message div {
+	padding: 5px; 
+}
+
+.displayLoading { background: url(/images/loading.gif) no-repeat; }

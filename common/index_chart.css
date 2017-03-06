@@ -1,0 +1,46 @@
+.chart_table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #666;
+}
+
+.all_singer_table {
+  border-collapse: collapse;
+  width: 92%;
+}
+
+.chart_table caption {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 1em 0;
+}
+
+.chart_table th, .all_singer_table th {
+  color: #FFFFFF;
+  border: 1px solid #73afb7;
+  font-weight: bold;
+  text-align: center;
+  background: URL(http://www.mvland.com/images/th_bg.png) no-repeat left top;
+}
+
+.chart_table th, .chart_table td, .all_singer_table th, .all_singer_table td {
+  padding: 0.1em 1em;
+  border: 1px dotted #CCCCCC;
+  text-align: center;  
+}
+
+.chart_table .bg_change:hover {
+  background-color: #FFFF99;
+}
+
+.all_singer_table td:hover {
+  background-color: #FFFF99;
+}
+
+.table_header {
+	color: #fff; text-align: center; font-weight: bold; width: 256px; background: URL(http://www.mvland.com/images/th_bg.png) no-repeat left top;			  
+}
+
+.table_content {
+	overflow: scroll; width: 295px; height: 150px; margin-bottom: 20px;
+}
